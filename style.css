@@ -1,0 +1,83 @@
+/* * {
+  background-color: aquamarine;
+} */
+
+/* #farm {
+  background-color: lightyellow;
+} */
+
+
+.makeButton {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font: bold;
+    padding: 10px;
+    height: 150px;
+    width: 150px;
+    background-color: lightgray;
+    border: solid black 4px;
+    margin: 10px;
+    border-radius: 50%;
+    margin: auto;
+  }
+  .catObject {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font: bold;
+    padding: 10px;
+    height: 150px;
+    width: 150px;
+    background-color: lightyellow;
+    border: solid black 4px;
+    margin: 10px;
+    border-radius: 50%;
+    margin: auto;
+  
+  }
+  .dogObject {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font: bold;
+    padding: 10px;
+    height: 150px;
+    width: 150px;
+    background-color: lightgreen;
+    border: solid black 4px;
+    margin: 10px;
+    border-radius: 50%;
+    margin: auto;
+  }
+   
+  .horseObject {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font: bold;
+    padding: 10px;
+    height: 150px;
+    width: 150px;
+    background-color: lightskyblue;
+    border: solid black 4px;
+    margin: 10px;
+    border-radius: 50%;
+    margin: auto;
+  
+  }
+  
+  .sheepObject {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font: bold;
+    padding: 10px;
+    height: 150px;
+    width: 150px;
+    background-color: lightpink;
+    border: solid black 4px;
+    margin: 10px;
+    border-radius: 50%;
+    margin: auto;
+  
