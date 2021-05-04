@@ -26,7 +26,7 @@ body {
     margin-left: auto;
    
   }
-  .catObject {
+  .makeCat {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -42,7 +42,7 @@ body {
     margin-bottom: 4px;
     margin-left: auto;
   }
-  .dogObject {
+  .makeDog {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -59,7 +59,7 @@ body {
     margin-left: auto;
   }
    
-  .horseObject {
+  .makeHorse {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -77,7 +77,7 @@ body {
   
   }
   
-  .sheepObject {
+  .makeSheep {
     display: flex;
     align-items: center;
     justify-content: center;
