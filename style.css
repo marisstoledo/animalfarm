@@ -1,16 +1,18 @@
-/* * {
-  background-color: aquamarine;
-} */
+body {
+    background-color: beige
+}
 
-/* #farm {
-  background-color: lightyellow;
-} */
+#farm {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
 
 
 .makeButton {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     font: bold;
     padding: 10px;
     height: 150px;
@@ -19,12 +21,15 @@
     border: solid black 4px;
     margin: 10px;
     border-radius: 50%;
-    margin: auto;
+    margin-right: auto;
+    margin-bottom: 4px;
+    margin-left: auto;
+   
   }
   .catObject {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     font: bold;
     padding: 10px;
     height: 150px;
@@ -33,13 +38,14 @@
     border: solid black 4px;
     margin: 10px;
     border-radius: 50%;
-    margin: auto;
-  
+    margin-right: auto;
+    margin-bottom: 4px;
+    margin-left: auto;
   }
   .dogObject {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     font: bold;
     padding: 10px;
     height: 150px;
@@ -48,13 +54,15 @@
     border: solid black 4px;
     margin: 10px;
     border-radius: 50%;
-    margin: auto;
+    margin-right: auto;
+    margin-bottom: 4px;
+    margin-left: auto;
   }
    
   .horseObject {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     font: bold;
     padding: 10px;
     height: 150px;
@@ -63,14 +71,16 @@
     border: solid black 4px;
     margin: 10px;
     border-radius: 50%;
-    margin: auto;
+    margin-top: auto;
+    margin-bottom: 4px;
+    margin-left: auto;
   
   }
   
   .sheepObject {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     font: bold;
     padding: 10px;
     height: 150px;
@@ -79,5 +89,7 @@
     border: solid black 4px;
     margin: 10px;
     border-radius: 50%;
-    margin: auto;
-  
+    margin-top: auto;
+    margin-bottom: 4px;
+    margin-left: auto;
+  }

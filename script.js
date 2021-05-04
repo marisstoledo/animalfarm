@@ -10,31 +10,28 @@
 
 function Animal(animalName, animalClass, animalId){
     this.animalName = animalName;
-    his.animalClass = animalClass;
-    his.animalId = animalId;
+    this.animalClass = animalClass;
+    this.animalId = animalId;
 
 }
-Animal.prototype.render = function(){
-    console.log("this funtion has been called")
+Animal.prototype.render = function() {
+let target = document.getElementById(this.animalId)
 let animalDiv = document.createdElement('div')
-animalDiv.className = '$(this.animalName)Object';
+animalDiv.className = this.animalName;
 animalDiv.textContent = this.animalName;
-let animalSelection = document.quarySelector( '#$(this.animalName)Section')
 animalSelection.appendChild(animalDiv);
 }
     
     let makeCatButton  = document.getElementById('makeCat');
     makeCatButton.addEventListener('click', goMakeCat)
     function goMakeCat(){
-    console.log('cat was clicked')
     let cat = new animal('cat', 'catObject','cat');
     cat.render();
 }
 
-   let makeDogButton = document.getElementById('makeDog');
+ let makeDogButton = document.getElementById('makeDog');
 makeDogButton.addEventListener('click', goMakeDog)
 function goMakeDog(){
-    console.log('dog was clicked')
     let dog = new Animal('dog', 'dogObject', 'dog');
     dog.render();
 }
@@ -43,7 +40,6 @@ function goMakeDog(){
 let makeHorseButton = document.getElementById('makeHorse');
 makeHorseButton.addEventListener('click', goMakeHorse)
 function goMakeHorse(){
-    console.log('horse was clicked')
     let dog = new Animal('horse', 'horseObject', 'horse');
     horse.render();
 }
@@ -52,7 +48,6 @@ function goMakeHorse(){
 let makesheepButton = document.getElementById('makeSheep');
 makeSheepButton.addEventListener('click', goMakeSheep)
 function goMakeSheep(){
-    console.log('sheep was clicked')
     let dog = new Animal('sheep', 'sheepObject', 'sheep');
     sheep.render();
 }
