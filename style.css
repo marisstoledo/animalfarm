@@ -9,10 +9,8 @@ body {
 }
 
 
-.makeButton {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+section {
+   
     font: bold;
     padding: 10px;
     height: 150px;
@@ -24,12 +22,13 @@ body {
     margin-right: auto;
     margin-bottom: 4px;
     margin-left: auto;
-   
-  }
-  .catObject {
     display: flex;
     align-items: center;
     justify-content: center;
+   
+  }
+  .catObject {
+    
     font: bold;
     padding: 10px;
     height: 150px;
@@ -41,11 +40,12 @@ body {
     margin-right: auto;
     margin-bottom: 4px;
     margin-left: auto;
-  }
-  .dogObject {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  .dogObject {
+    
     font: bold;
     padding: 10px;
     height: 150px;
@@ -57,12 +57,16 @@ body {
     margin-right: auto;
     margin-bottom: 4px;
     margin-left: auto;
-  }
-   
-  .horseObject {
     display: flex;
     align-items: center;
     justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+   
+  .horseObject {
+   
     font: bold;
     padding: 10px;
     height: 150px;
@@ -74,13 +78,14 @@ body {
     margin-top: auto;
     margin-bottom: 4px;
     margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   
   }
   
   .sheepObject {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    
     font: bold;
     padding: 10px;
     height: 150px;
@@ -92,4 +97,7 @@ body {
     margin-top: auto;
     margin-bottom: 4px;
     margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
