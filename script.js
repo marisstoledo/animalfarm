@@ -1,38 +1,30 @@
 'use strict'
 
 
- //TODO: I want to create a template - constructor function for an animal
-// Is that four different constructors?
-// Create a single constructor - template
-// the constructor takes as parameters - animalName
-// property called - animalName
-// method to render itself on the screen - render()
-
-function Animal(animalName, animalClass, animalId){
+function Animal(animalName){
     this.animalName = animalName;
-    this.animalClass = animalClass;
-    this.animalId = animalId;
+
 
 }
-Animal.prototype.render = function() {
-let target = document.getElementById(this.animalId)
-let animalDiv = document.createdElement('div')
-animalDiv.className = this.animalName;
+Animal.prototype.render = function(){
+let animalDiv = document.createdElement('div');
+animalDiv.className = `${this.animalName}object`;
 animalDiv.textContent = this.animalName;
-animalSelection.appendChild(animalDiv);
+let animalSection = document.querySelector(`#${this.animalName}Section`);
+animalSection.appendChild(animalDiv);
 }
     
-    let makeCatButton  = document.getElementById('makeCat');
+    let makeCatButton  = document.getElementById('goMakeCat');
     makeCatButton.addEventListener('click', goMakeCat);
     function goMakeCat(){
-    let cat = new animal('cat', 'catObject','cat');
+    let cat = new animal('cat');
     cat.render();
 }
 
- let makeDogButton = document.getElementById('makeDog');
+ let makeDogButton = document.getElementById('goMakeDog');
 makeDogButton.addEventListener('click', goMakeDog);
 function goMakeDog(){
-    let dog = new Animal('dog', 'dogObject', 'dog');
+    let dog = new Animal('dog');
     dog.render();
 }
 
@@ -40,7 +32,7 @@ function goMakeDog(){
 let makeHorseButton = document.getElementById('makeHorse');
 makeHorseButton.addEventListener('click', goMakeHorse);
 function goMakeHorse(){
-    let dog = new Animal('horse', 'horseObject', 'horse');
+    let dog = new Animal('horse');
     horse.render();
 }
 
@@ -48,6 +40,6 @@ function goMakeHorse(){
 let makesheepButton = document.getElementById('makeSheep');
 makesheepButton.addEventListener('click', goMakeSheep);
 function goMakeSheep(){
-    let dog = new Animal('sheep', 'sheepObject', 'sheep');
+    let dog = new Animal('sheep');
     sheep.render();
 }
