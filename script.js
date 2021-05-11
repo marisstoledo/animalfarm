@@ -1,5 +1,13 @@
 'use strict' 
 
+
+function Animal(animalName){
+    this.animalName = animalName;
+
+
+}
+Animal.prototype.render = function(){
+let animalDiv = document.createdElement('div');
 function Animal(animalName){
     this.animalName = animalName;
    
@@ -12,6 +20,7 @@ let animalSection = document.querySelector(`#${this.animalName}Section`);
 animalSection.appendChild(animalDiv);
 }
     
+    let makeCatButton  = document.getElementById('goMakeCat');
 let makeCatButton = document.getElementById('makeCat');
  makeCatButton.addEventListener('click', makeCat)
  function makeCat(){
@@ -35,14 +44,14 @@ function goMakeHorse() {
     let makeCatButton  = document.getElementById('makeCat');
     makeCatButton.addEventListener('click', goMakeCat);
     function goMakeCat(){
-    let cat = new animal('cat', 'catObject','cat');
+    let cat = new animal('cat');
     cat.render();
 }
 
- let makeDogButton = document.getElementById('makeDog');
+ let makeDogButton = document.getElementById('goMakeDog');
 makeDogButton.addEventListener('click', goMakeDog);
 function goMakeDog(){
-    let dog = new Animal('dog', 'dogObject', 'dog');
+    let dog = new Animal('dog');
     dog.render();
 }
 
@@ -50,7 +59,7 @@ function goMakeDog(){
 let makeHorseButton = document.getElementById('makeHorse');
 makeHorseButton.addEventListener('click', goMakeHorse);
 function goMakeHorse(){
-    let dog = new Animal('horse', 'horseObject', 'horse');
+    let dog = new Animal('horse');
     horse.render();
 }
 
@@ -62,6 +71,7 @@ function goMakeSheep() {
 let makesheepButton = document.getElementById('makeSheep');
 makesheepButton.addEventListener('click', goMakeSheep);
 function goMakeSheep(){
+    let dog = new Animal('sheep');
     let dog = new Animal('sheep', 'sheepObject', 'sheep');
 
     sheep.render();
