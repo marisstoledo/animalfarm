@@ -13,16 +13,37 @@ body > header, body > footer {
 }
 
 main {
-    background: #fafafa;
+    background: beige;
 }
 main > .content {
-    background: #0000;
+    background: pink;
+}
+main > .content > main > article {
+display:flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+font-weight: bold;
+background-color: white;
+border: 2px solid black;
+border-radius: 20%; 
+height: 200px;
+width: 200px;
+padding: 10px;
+margin-top: auto;
+margin-right: auto;
+margin: 5px;
+margin-left: auto;
 }
 main > aside {
-    background: #9c9000;
+    color: beige;
+    background:blueviolet;
+    height: 100%
 }
 main > nav {
-    background: #ff0000;
+    color: beige;
+    background: blueviolet;
+    height: 100%
 }
 .deck {
     background: #0fa0ce;
@@ -33,6 +54,7 @@ main > nav {
 
 .centerWords {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
