@@ -10,6 +10,9 @@
 
 
 section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font: bold;
     padding: 10px;
     height: 150px;
@@ -21,10 +24,18 @@ section {
     margin-right: auto;
     margin-bottom: 4px;
     margin-left: auto;
+
+   
+  } 
+  
+  .makeCat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
    
   }
+
   .catObject {
-    
     font: bold;
     padding: 10px;
     height: 150px;
@@ -36,12 +47,17 @@ section {
      margin-right: auto;
     margin-bottom: 4px;
     margin-left: auto;
+  }
+
+  .makeDog {
+
     display: flex;
     align-items: center;
     justify-content: center; 
   }
+
+
   .dogObject {
-    
     font: bold;
     padding: 10px;
     height: 150px;
@@ -53,6 +69,11 @@ section {
      margin-right: auto;
     margin-bottom: 4px;
     margin-left: auto;
+
+  }
+
+  .makeHorse {
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -62,7 +83,6 @@ section {
   }
    
   .horseObject {
-   
     font: bold;
     padding: 10px;
     height: 150px;
@@ -80,8 +100,17 @@ section {
   
   }
   
+
   .sheepObject {
     
+  .makeSheep {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  
+  .sheepObject {
     font: bold;
     padding: 10px;
     height: 150px;
