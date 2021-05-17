@@ -1,11 +1,11 @@
-body {
+ body {
     background-color: beige
 }
 
 #farm {
-    display: flex;
+     display: flex;
     justify-content: center;
-    justify-content: space-between;
+    justify-content: space-between; 
 }
 
 
@@ -21,9 +21,6 @@ section {
     margin-right: auto;
     margin-bottom: 4px;
     margin-left: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
    
   }
   .catObject {
@@ -36,12 +33,12 @@ section {
     border: solid black 4px;
     margin: 10px;
     border-radius: 50%;
-    margin-right: auto;
+     margin-right: auto;
     margin-bottom: 4px;
     margin-left: auto;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; 
   }
   .dogObject {
     
@@ -53,7 +50,7 @@ section {
     border: solid black 4px;
     margin: 10px;
     border-radius: 50%;
-    margin-right: auto;
+     margin-right: auto;
     margin-bottom: 4px;
     margin-left: auto;
     display: flex;
@@ -74,7 +71,7 @@ section {
     border: solid black 4px;
     margin: 10px;
     border-radius: 50%;
-    margin-top: auto;
+     margin-top: auto;
     margin-bottom: 4px;
     margin-left: auto;
     display: flex;
@@ -93,10 +90,10 @@ section {
     border: solid black 4px;
     margin: 10px;
     border-radius: 50%;
-    margin-top: auto;
+     margin-top: auto;
     margin-bottom: 4px;
     margin-left: auto;
     display: flex;
     align-items: center;
-    justify-content: center;
-  }
+    justify-content: center; 
+  } 
