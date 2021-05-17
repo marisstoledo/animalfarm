@@ -1,11 +1,11 @@
-body {
+ body {
     background-color: beige
 }
 
 #farm {
-    display: flex;
+     display: flex;
     justify-content: center;
-    justify-content: space-between;
+    justify-content: space-between; 
 }
 
 
@@ -44,7 +44,7 @@ section {
     border: solid black 4px;
     margin: 10px;
     border-radius: 50%;
-    margin-right: auto;
+     margin-right: auto;
     margin-bottom: 4px;
     margin-left: auto;
   }
@@ -53,7 +53,7 @@ section {
 
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; 
   }
 
 
@@ -66,7 +66,7 @@ section {
     border: solid black 4px;
     margin: 10px;
     border-radius: 50%;
-    margin-right: auto;
+     margin-right: auto;
     margin-bottom: 4px;
     margin-left: auto;
 
@@ -91,7 +91,7 @@ section {
     border: solid black 4px;
     margin: 10px;
     border-radius: 50%;
-    margin-top: auto;
+     margin-top: auto;
     margin-bottom: 4px;
     margin-left: auto;
     display: flex;
@@ -119,10 +119,10 @@ section {
     border: solid black 4px;
     margin: 10px;
     border-radius: 50%;
-    margin-top: auto;
+     margin-top: auto;
     margin-bottom: 4px;
     margin-left: auto;
     display: flex;
     align-items: center;
-    justify-content: center;
-  }
+    justify-content: center; 
+  } 

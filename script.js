@@ -1,6 +1,8 @@
 'use strict' 
 
 
+/*created a template for the animals to mimic for the animal name*/
+
 function Animal(animalName){
     this.animalName = animalName;
 
@@ -12,6 +14,8 @@ function Animal(animalName){
     this.animalName = animalName;
    
 }
+
+/*The render looks at the Id, then goes on to crete the div. Then is animal to name the animal for AppendChild.*/
 Animal.prototype.render = function(){
 let animalDiv = document.createElement('div');
 animalDiv.className = `${this.animalName}object`;
@@ -20,9 +24,13 @@ let animalSection = document.querySelector(`#${this.animalName}Section`);
 animalSection.appendChild(animalDiv);
 }
     
+
+/*this creates the "makeCat" id then adds a event listner so you are able to click the buttons to "makeCat". To use the specifc id you use the render function like "cat". Same applys for the dog, horse, and sheep.*/
     let makeCatButton  = document.getElementById('goMakeCat');
+
 let makeCatButton = document.getElementById('makeCat');
  makeCatButton.addEventListener('click', makeCat)
+
  function makeCat(){
 let cat = new Animal('cat');
  cat.render();
